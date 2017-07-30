@@ -1,0 +1,13 @@
+package com.cqc.leetcode.practice003;
+
+public class LongestSubstringWithoutRepeatingCharacters3 {
+	public static void main(String[] args) {
+		//a=97 z=122 A=65
+		char ch='Z';
+		System.out.println((int)ch);
+	}
+	public int lengthOfLongestSubstring(String s) {
+		
+        return 0;
+    }
+}

@@ -1,0 +1,8 @@
+package com.cqc.leetcode.practice003;
+
+public class LongestSubstringWithoutRepeatingCharacters3 {
+	public int lengthOfLongestSubstring(String s) {
+		
+        return 0;
+    }
+}
