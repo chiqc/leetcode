@@ -8,6 +8,11 @@ public class LongestSubstringWithoutRepeatingCharacters3 {
 		String str="au";
 		System.out.println(lengthOfLongestSubstring2(str));
 	}
+	public static int lengthOfLongestSubstring3(String s){
+		int max=0;
+		//for(int i=0)
+		return 0;
+	}
 	public static int lengthOfLongestSubstring2(String s) {
 		if(s.length()==1){
 			return 1;
@@ -22,6 +27,8 @@ public class LongestSubstringWithoutRepeatingCharacters3 {
 			for(int i=begin;i<s.length();i++){
 				if(record[((int)s.charAt(i))]==0){
 					record[((int)s.charAt(i))]=1;
+					if(i==s.length()-1)
+						return max>(i-begin)?max:(i-begin);
 				}else{
 					if(i-begin>max)
 						max=i-begin;
